@@ -1,0 +1,25 @@
+{
+  "name": "reactgram",
+  "version": "1.0.0",
+  "description": "A simple image search engine.",
+  "main": "./pages/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/starzou/reactgram.git"
+  },
+  "dependencies": {
+    "next": "^5.1.0",
+    "node-fetch": "^2.1.2",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "react-images": "^0.5.17",
+    "react-photo-gallery": "^6.0.22"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "StarZou",
+  "license": "MIT"
+}
