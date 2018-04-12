@@ -157,6 +157,9 @@ export default class IndexPage extends React.Component {
           .subtitle {
               color: #fff;
           }
+          a {
+              text-decoration: none;
+          }
         `}</style>
         <style global jsx>{`
         body {
@@ -185,7 +188,9 @@ export default class IndexPage extends React.Component {
         }
         `}</style>
 
-        <h1 className="subtitle">Reactgram</h1>
+        <a href="https://github.com/starzou/reactgram" target="_blank">
+          <h1 className="subtitle">Reactgram</h1>
+        </a>
 
         <form onSubmit={this.handleSubmit}>
           <div className="input-group">
